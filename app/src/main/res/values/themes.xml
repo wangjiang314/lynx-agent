@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 使用 Material3 NoActionBar 主题移除默认黑色导航栏 -->
+    <style name="Theme.LynxAgent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 设置状态栏和导航栏透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- 强制状态栏图标为深色（适配浅色背景） -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

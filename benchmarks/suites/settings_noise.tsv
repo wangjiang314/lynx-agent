@@ -1,0 +1,6 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+wlan_from_settings_home	打开设置并进入 WLAN 页面	180	com.android.settings	settings_home	2
+wlan_from_wlan_page	打开设置并进入 WLAN 页面	180	com.android.settings	settings_wlan_page	2
+wlan_from_bluetooth_page	打开设置并进入 WLAN 页面	180	com.android.settings	settings_bluetooth_page	2
+bluetooth_from_wlan_page	打开设置并进入蓝牙页面	180	com.android.settings	settings_wlan_page	2
+search_battery_from_settings_home	打开设置并搜索电池	180	com.android.settings	settings_home	2

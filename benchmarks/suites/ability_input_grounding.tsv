@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+search_battery_from_settings_home	打开设置并搜索电池	180	com.android.settings	settings_home	2
+search_display_from_settings_home	打开设置并搜索显示	180	com.android.settings	settings_home	2
+search_storage_from_settings_home	打开设置并搜索存储	180	com.android.settings	settings_home	2

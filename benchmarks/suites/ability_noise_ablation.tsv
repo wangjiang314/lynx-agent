@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+settings_display_vs_wallpaper	打开设置并进入“显示和亮度”页面，不要进入“桌面和壁纸”	240	com.android.settings	settings_home	2
+settings_wlan_vs_bluetooth	打开设置并进入 WLAN 页面，不要停留在蓝牙页面	240	com.android.settings	settings_bluetooth_page	2
+settings_search_storage_results_only	打开设置并搜索“存储”，停留在搜索结果页，不要进入“家庭存储”或其他具体结果	240	com.android.settings	settings_home	2

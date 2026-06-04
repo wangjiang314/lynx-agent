@@ -1,0 +1,68 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.aab
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Kotlin
+*.kt.bak
+
+# Build outputs
+bin/
+gen/
+out/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Misc
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+artifacts/benchmarks/

@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+recover_wlan_from_bluetooth_page	打开设置并进入 WLAN 页面	180	com.android.settings	settings_bluetooth_page	2
+recover_bluetooth_from_wlan_page	打开设置并进入蓝牙页面	180	com.android.settings	settings_wlan_page	2
+recover_search_battery_from_wlan_page	打开设置并搜索电池	180	com.android.settings	settings_wlan_page	2

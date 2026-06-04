@@ -1,0 +1,7 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+calculator_long_expression	打开计算器并计算 9876 ÷ 12 + 345，停留在显示结果 1168 的页面	300	com.huawei.calculator	home	2
+clock_timer_set_one_min_no_start	打开时钟，进入计时器页面，设置为 1 分钟，但不要启动倒计时	360	com.huawei.deskclock	home	2
+browser_search_openai_pricing_results	打开浏览器，搜索“OpenAI API pricing”，停留在搜索结果页	360	com.huawei.browser	home	2
+calendar_today_page_no_event	打开日历，进入今天的日历页面，不要新建日程	300	com.huawei.calendar	home	2
+notepad_multiline_draft	打开备忘录，新建一条两行草稿，第一行是“Lynx agent test”，第二行是“cross app challenge”，停留在编辑页面	360	com.huawei.notepad	home	2
+cross_app_calc_result_to_note	先打开计算器计算 19 × 23，确认结果 437；然后打开备忘录新建草稿，内容为“19 × 23 = 437”，停留在编辑页面	480	com.huawei.notepad	home	2

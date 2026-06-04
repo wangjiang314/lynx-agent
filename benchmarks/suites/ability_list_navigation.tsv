@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+open_wlan_from_settings_home	打开设置并进入 WLAN 页面	180	com.android.settings	settings_home	2
+open_bluetooth_from_settings_home	打开设置并进入蓝牙页面	180	com.android.settings	settings_home	2
+open_display_from_settings_home	打开设置并进入显示和亮度页面	180	com.android.settings	settings_home	2

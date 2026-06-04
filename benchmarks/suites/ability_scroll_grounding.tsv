@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+settings_scroll_accessibility	打开设置，从设置首页滚动找到并进入“辅助功能”页面	240	com.android.settings	settings_home	2
+settings_scroll_system_update	打开设置，从设置首页滚动找到并进入“系统和更新”页面	240	com.android.settings	settings_home	2
+settings_scroll_apps_services	打开设置，从设置首页找到并进入“应用和服务”页面；如果当前屏幕没有看到就滚动寻找	240	com.android.settings	settings_home	2

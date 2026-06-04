@@ -1,0 +1,6 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+settings_launch	Open Settings app	90	com.android.settings	home	2
+calculator_launch	Open Calculator app	90	com.huawei.calculator	home	2
+settings_wlan	打开设置并进入 WLAN 页面	150	com.android.settings	home	2
+settings_bluetooth	打开设置并进入蓝牙页面	150	com.android.settings	home	2
+settings_search_battery	打开设置并搜索电池	180	com.android.settings	home	2

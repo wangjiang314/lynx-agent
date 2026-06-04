@@ -1,0 +1,4 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+settings_search_storage_enter_page	打开设置，搜索“存储”，然后进入“存储”设置页面	300	com.android.settings	home	2
+settings_wlan_then_bluetooth	打开设置，先进入 WLAN 页面，然后返回设置首页并进入蓝牙页面	300	com.android.settings	home	2
+calculator_arithmetic_mixed	打开计算器并计算 23 × 47 + 18，停留在显示结果 1099 的页面	300	com.huawei.calculator	home	2

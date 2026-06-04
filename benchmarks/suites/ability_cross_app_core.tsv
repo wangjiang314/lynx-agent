@@ -1,0 +1,7 @@
+# id	instruction	duration_sec	target_package	prep	max_attempts
+calculator_percentage_expression	打开计算器并计算 128 × 7 + 36，停留在显示结果 932 的页面	240	com.huawei.calculator	home	2
+clock_stopwatch_page	打开时钟，进入秒表页面，不要开始计时	240	com.huawei.deskclock	home	2
+clock_timer_page	打开时钟，进入计时器页面，不要启动倒计时	240	com.huawei.deskclock	home	2
+browser_search_openai_results	打开浏览器，搜索“OpenAI”，停留在搜索结果页	300	com.huawei.browser	home	2
+filemanager_downloads_page	打开文件管理，进入“下载”或“Download”文件夹页面	240	com.huawei.filemanager	home	2
+notepad_new_draft	打开备忘录，新建一条内容为“Lynx agent test”的草稿，停留在编辑页面但不要主动分享或发送	300	com.huawei.notepad	home	2
