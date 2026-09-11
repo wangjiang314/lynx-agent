@@ -153,6 +153,26 @@ tools/run_benchmark_suite.sh \
 
 Benchmark outputs are written under `artifacts/benchmarks/` and ignored by git.
 
+
+## Record Demos From Lynx Screenshots
+
+When Lynx already owns screen capture through MediaProjection, a second recorder
+can compete for the same device capture path. For demo evidence, you can record
+the screenshots Lynx is already producing instead of starting Android
+`screenrecord`:
+
+```bash
+ADB_BIN=/path/to/adb tools/record_internal_screenshots.sh \
+  --serial <device-id> \
+  --scenario-id settings_wlan \
+  --duration 45 \
+  --fps 2
+```
+
+The script reads the debuggable app cache via `run-as com.juwan.lynx`, pulls
+`cache/screenshot.jpg` over ADB, and assembles MP4/GIF files with ffmpeg under
+`artifacts/internal-recordings/`.
+
 ## Repository Layout
 
 ```text

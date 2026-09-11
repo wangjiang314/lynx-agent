@@ -63,6 +63,7 @@ Thumbs.db
 *.tar.gz
 *.rar
 artifacts/benchmarks/
+artifacts/internal-recordings/
 
 # Keep Gradle wrapper executable for clean clones
 !gradle/wrapper/gradle-wrapper.jar
