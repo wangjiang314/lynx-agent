@@ -23,9 +23,6 @@ bin/
 gen/
 out/
 
-# Gradle wrapper
-!gradle/wrapper/gradle-wrapper.jar
-
 # Maven
 target/
 pom.xml.tag
@@ -66,3 +63,6 @@ Thumbs.db
 *.tar.gz
 *.rar
 artifacts/benchmarks/
+
+# Keep Gradle wrapper executable for clean clones
+!gradle/wrapper/gradle-wrapper.jar

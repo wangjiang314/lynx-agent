@@ -1,41 +1,45 @@
 ---
 name: Bug report
-about: Report a runtime, benchmark, or build problem
-title: "[Bug] "
+about: Report a runtime, benchmark, or Android automation failure
+title: "[Bug]: "
 labels: bug
 assignees: ""
 ---
 
-## Summary
+## What happened?
 
-Describe the problem in one or two sentences.
+Describe the task, expected result, and actual result.
 
-## Environment
+## Device and environment
 
 - Device:
 - Android version:
-- Build variant:
-- Model provider:
+- Lynx Agent commit:
+- Text model:
+- Vision model:
 
-## Reproduction
+## Task instruction
 
-1. 
-2. 
-3. 
+```text
 
-## Expected
-
-What should have happened?
-
-## Actual
-
-What actually happened?
+```
 
 ## Evidence
 
-Include logs, traces, screenshots, or benchmark output if you can share them
-without leaking sensitive data.
+Attach a sanitized benchmark report, trace excerpt, screenshot, or screen
+recording if possible.
 
-## Notes
+## Failure category
 
-Anything else that may help narrow the failure mode.
+Choose the closest category:
+
+- app launch or app resolution
+- wrong click or wrong coordinate
+- typing/input grounding
+- repeated no-progress action
+- false completion
+- verifier false reject
+- safety confirmation
+- model provider/API failure
+- benchmark or trace parsing
+- other
