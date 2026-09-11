@@ -15,6 +15,7 @@ failure categories.
 | --- | --- | --- | ---: | ---: | --- | --- |
 | 2026-06-02 | `ability_cross_app_core_v9_network_restored` | `QXNUT21B09005099` | 6 / 6 | 6 / 6 | pass | Calculator, clock stopwatch, clock timer, browser search, file manager, and notepad all passed. |
 | 2026-08-12 | `completion_smoke` | `MQS0219531003849` | 3 / 5 | 3 / 5 | pass | Calculator, WLAN, and Bluetooth passed. Settings launch timed out after verifier rejection; Settings battery search failed with `NO_TOOL_CALL`. |
+| 2026-09-12 | `demo_settings_wlan` | `MQS0219531003849` | 1 / 1 | 1 / 1 | pass | Opened Android Settings, reached WLAN search/results page, and passed `VerifierAgent` plus `CompletionGate` with observable WLAN evidence. |
 | 2026-08-12 | `completion_smoke` | `MQS0219531003849` | 0 / 2 | 0 / 2 | pass | Suite aborted after two environment/provider failures before useful agent execution. |
 
 ## What Counts As Success

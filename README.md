@@ -29,6 +29,16 @@ Lynx focuses on that harder layer:
 - Benchmark tooling for real-device runs, trace integrity, repeated actions,
   completion gate results, API calls, tool calls, and token usage.
 
+
+## Demo
+
+![Lynx Agent opens Android Settings and reaches the WLAN page](docs/assets/lynx-agent-settings-wlan-demo.gif)
+
+This real-device run starts from Lynx Agent, resolves Android Settings, opens the
+WLAN page, proposes completion, and passes `VerifierAgent` plus
+`CompletionGate` based on observable screen evidence. The MP4 version is in
+[docs/assets/lynx-agent-settings-wlan-demo.mp4](docs/assets/lynx-agent-settings-wlan-demo.mp4).
+
 ## Current Capabilities
 
 - Plans a task with `PlannerAgent` and observable success criteria.
@@ -74,6 +84,7 @@ intended as early capability signals, not a final leaderboard.
 | --- | --- | --- | ---: | --- |
 | 2026-06-02 | `ability_cross_app_core_v9_network_restored` | `QXNUT21B09005099` | 6 / 6 | Calculator, clock, browser, file manager, and notepad tasks passed with trace integrity. |
 | 2026-08-12 | `completion_smoke` | `MQS0219531003849` | 3 / 5 | Calculator, WLAN, and Bluetooth passed; Settings launch timed out; Settings battery search failed on missing tool call. |
+| 2026-09-12 | `demo_settings_wlan` | `MQS0219531003849` | 1 / 1 | Settings WLAN task completed with verifier and completion gate acceptance; demo asset published under `docs/assets/`. |
 
 More details are in [docs/benchmark-results.md](docs/benchmark-results.md).
 
