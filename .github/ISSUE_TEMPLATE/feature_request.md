@@ -1,29 +1,24 @@
 ---
 name: Feature request
-about: Suggest a runtime, benchmark, or developer-experience improvement
-title: "[Feature] "
+about: Suggest a general Lynx Agent capability improvement
+title: "[Feature]: "
 labels: enhancement
 assignees: ""
 ---
 
-## Problem
+## Capability
 
-What limitation are you hitting today?
+What should Lynx Agent become better at?
 
-## Proposal
+## Why it matters
 
-What would you like to change?
+Explain the real Android task or benchmark failure this would improve.
 
-## Why This Helps
+## Suggested approach
 
-Explain how this would improve completion, recovery, verification, benchmark
-coverage, or developer ergonomics.
+Describe the smallest useful change, if you have one.
 
-## Risks
+## Validation
 
-Could this introduce app-specific hardcoding, false-success risk, or prompt
-noise?
-
-## Extra Context
-
-Add examples, screenshots, or related references if useful.
+How should we know this improved real task completion rather than one app or one
+benchmark case?

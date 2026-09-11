@@ -1,19 +1,18 @@
-## Summary
+## What changed
 
-Describe the change briefly.
 
 ## Why
 
-Explain which problem this addresses and how it relates to completion,
-verification, recovery, or observability.
 
 ## Validation
 
-- [ ] `./gradlew test`
+- [ ] `./gradlew test --continue`
 - [ ] `./gradlew assembleDebug`
-- [ ] benchmark or trace check when relevant
+- [ ] Device benchmark or trace review, if runtime behavior changed
 
-## Risks
+## Risk check
 
-Call out anything not yet proven, especially around false success, app-specific
-behavior, or benchmark-only gains.
+- [ ] Does not add app-specific runtime hardcoding
+- [ ] Does not weaken completion verification
+- [ ] Does not bypass safety confirmation
+- [ ] Does not expose sensitive benchmark artifacts
