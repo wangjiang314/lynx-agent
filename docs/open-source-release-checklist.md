@@ -4,40 +4,40 @@ Use this checklist before publishing the first public version of Lynx Agent.
 
 ## 1. Repository Hygiene
 
-- [ ] No real API keys remain in code, tests, docs, or screenshots
-- [ ] No private endpoint URLs remain in code or docs
-- [ ] No local machine paths remain in public-facing docs
-- [ ] No `local.properties`, build outputs, or benchmark artifacts are included
-- [ ] Placeholder defaults are clearly placeholders
+- [x] No real API keys remain in code, tests, docs, or screenshots
+- [x] No private endpoint URLs remain in code or docs
+- [x] No local machine paths remain in public-facing docs
+- [x] No `local.properties`, build outputs, or benchmark artifacts are included
+- [x] Placeholder defaults are clearly placeholders
 
 ## 2. Build And Verification
 
-- [ ] `./gradlew test` passes
-- [ ] `./gradlew assembleDebug` passes
-- [ ] At least one device benchmark run is recent enough to discuss honestly
-- [ ] Known limitations are documented in `README.md`
+- [x] `./gradlew test` passes
+- [x] `./gradlew assembleDebug` passes
+- [x] At least one device benchmark run is recent enough to discuss honestly
+- [x] Known limitations are documented in `README.md`
 
 ## 3. First-Visit Experience
 
-- [ ] The first screen of `README.md` explains what Lynx is in under 30 seconds
-- [ ] `README.md` explains what is different about completion-first execution
-- [ ] `README.md` shows the basic build and benchmark commands
-- [ ] `ROADMAP.md` reflects the actual next priorities
-- [ ] `CONTRIBUTING.md` tells outside contributors where to help
+- [x] The first screen of `README.md` explains what Lynx is in under 30 seconds
+- [x] `README.md` explains what is different about completion-first execution
+- [x] `README.md` shows the basic build and benchmark commands
+- [x] `ROADMAP.md` reflects the actual next priorities
+- [x] `CONTRIBUTING.md` tells outside contributors where to help
 
 ## 4. Demo And Evidence
 
-- [ ] Record one short demo video
-- [ ] Prepare one benchmark snapshot you are comfortable sharing
-- [ ] Be ready to explain one failure case, not only one success case
+- [x] Record one short demo video
+- [x] Prepare one benchmark snapshot you are comfortable sharing
+- [x] Be ready to explain one failure case, not only one success case
 
 ## 5. GitHub Setup
 
-- [ ] Create the public repository
-- [ ] Add repository description
-- [ ] Add repository topics
-- [ ] Push the initial `main` branch
-- [ ] Add the first release notes or pinned discussion
+- [x] Create the public repository
+- [x] Add repository description
+- [x] Add repository topics
+- [x] Push the initial `main` branch
+- [x] Add the first release notes or pinned discussion
 
 ## 6. Suggested Initial Topics
 

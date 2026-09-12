@@ -59,7 +59,7 @@ This preview includes the runtime direction, benchmark suites, and guardrail
 docs. It is still early, but the repo is public because I want the engineering
 tradeoffs to be inspectable and improve in the open.
 
-Repo:
+Repo: https://github.com/wangjiang314/lynx-agent
 
 ## X / Short Post
 
@@ -96,3 +96,22 @@ make phone agents more trustworthy, measurable, and honest about failure.
 Suggested GitHub topics:
 
 `android`, `android-automation`, `ai-agent`, `mobile-agent`, `benchmark`, `llm`, `accessibility`, `computer-vision`
+
+## Chinese Launch Post
+
+我把 Lynx Agent 开源了：一个 Android 手机操作 Agent，重点不是把 demo 做得好看，而是回答一个更硬的问题：模型说“完成了”，到底是不是真的完成？
+
+Lynx 的核心设计是 completion-first：`finished` 只是一条完成提议，不能直接算成功。系统会把当前屏幕、OCR、Accessibility 信息和任务目标交给只读的 VerifierAgent，再由 CompletionGate 判断能不能报告成功。如果证据不够，就继续执行、恢复或请求人工协助。
+
+这次公开的是 engineering preview，不是消费级产品。仓库里包括：
+
+1. Planner / Executor / Verifier / CompletionGate 的运行链路
+2. Android Accessibility + MediaProjection 的真机操作基础
+3. 真实设备 benchmark 脚本和 trace 记录
+4. 一个设置 WLAN 页面的真机 demo
+5. debug APK 预览包，方便愿意折腾的人快速试用
+
+我做这个项目的原因很简单：移动 Agent 不能只靠“点到了某个按钮”或“模型自称完成”来证明成功。真正有用的手机 Agent，应该能验证结果、承认失败、从错误动作里恢复，并留下可复盘的证据。
+
+Repo: https://github.com/wangjiang314/lynx-agent
+Release: https://github.com/wangjiang314/lynx-agent/releases/tag/v0.1.0-preview

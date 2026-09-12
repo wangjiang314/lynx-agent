@@ -100,6 +100,18 @@ More details are in [docs/benchmark-results.md](docs/benchmark-results.md).
 - An OpenAI-compatible chat completions endpoint with text and vision model
   support
 
+
+### Preview APK
+
+A debug APK is attached to the preview release for quick testing:
+
+- [Download `lynx-agent-v0.1.0-preview-debug.apk`](https://github.com/wangjiang314/lynx-agent/releases/download/v0.1.0-preview/lynx-agent-v0.1.0-preview-debug.apk)
+- [SHA-256 checksum](https://github.com/wangjiang314/lynx-agent/releases/download/v0.1.0-preview/lynx-agent-v0.1.0-preview-debug.apk.sha256)
+
+This build is intended for engineering evaluation. After installing, enable the
+Lynx accessibility service, grant screen capture, and configure your own
+OpenAI-compatible API endpoint in the app settings.
+
 ### Build
 
 ```bash
